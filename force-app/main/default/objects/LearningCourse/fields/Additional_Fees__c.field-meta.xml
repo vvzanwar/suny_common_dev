@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Fees__c</fullName>
+    <description>Captures common course-related add-on fees. /. may be incl may be alternate (outside fee) instructor payment</description>
+    <inlineHelpText>Enter the Additional Fees. Example: Materials fee of $35 may apply depending on supplies prov...</inlineHelpText>
+    <label>Additional Fees</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>true</trackHistory>
+    <type>Currency</type>
+</CustomField>

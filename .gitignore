@@ -46,3 +46,7 @@ $RECYCLE.BIN/
 **/__pycache__/
 **/.venv/
 **/venv/
+
+# Telemetry
+.agents/telemetry/
+.cline/telemetry/

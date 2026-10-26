@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_Sequence__c</fullName>
+    <description>This indicates the sequence the learner has to complete the courses</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Course Sequence.</inlineHelpText>
+    <label>Course Sequence</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

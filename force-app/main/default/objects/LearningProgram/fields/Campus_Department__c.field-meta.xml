@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campus_Department__c</fullName>
+    <description>Administrative department responsible for the program</description>
+    <inlineHelpText>Select the Campus Department. Example: Workforce Development</inlineHelpText>
+    <label>Campus Department</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Workforce Development</fullName>
+                <default>false</default>
+                <label>Workforce Development</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

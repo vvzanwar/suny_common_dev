@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Offered_Date__c</fullName>
+    <description>Date the program was first offered to learners</description>
+    <inlineHelpText>Enter the First Offered Date. Example: 9/1/2026</inlineHelpText>
+    <label>First Offered Date</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Registration_Requirements__c</fullName>
+    <description>Captures registration constraints that aren’t prereqs (age, compliance, etc.).</description>
+    <inlineHelpText>Enter the Registration Requirements. Example: OSHA 10 preferred; age 18+, Test of Adult Basic Education...</inlineHelpText>
+    <label>Registration Requirements</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

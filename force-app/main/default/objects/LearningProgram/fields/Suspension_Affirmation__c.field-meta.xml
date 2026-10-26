@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suspension_Affirmation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Affirmation that the institution has not been subject to any suspension, emergency, or termination action by the US Education Secretary during the five years preceding the date of the determination</description>
+    <inlineHelpText>Check the Suspension / Termination Affirmation. Example: Yes</inlineHelpText>
+    <label>Suspension / Termination Affirmation</label>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

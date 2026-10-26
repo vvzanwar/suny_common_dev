@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CEU_Eligible__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether CEUs are offered for this course by default.</description>
+    <inlineHelpText>Check the CEU Eligible. Example: Yes</inlineHelpText>
+    <label>CEU Eligible</label>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

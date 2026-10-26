@@ -3,5 +3,5 @@
     <fullName>SubjectAbbreviation</fullName>
     <inlineHelpText>Abbreviation of the Academic Subject for the course of study. For example,
         MAT = Mathematics.</inlineHelpText>
-    <trackHistory>false</trackHistory>
+    <trackHistory>true</trackHistory>
 </CustomField>

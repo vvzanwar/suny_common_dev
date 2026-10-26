@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_Short_Name__c</fullName>
+    <description>Abbreviated title for rosters, dashboards, constrained UI</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Course Short Name. Example: Intro Welding</inlineHelpText>
+    <label>Course Short Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

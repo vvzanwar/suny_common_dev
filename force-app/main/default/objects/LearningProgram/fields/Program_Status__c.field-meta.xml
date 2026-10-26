@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Status__c</fullName>
+    <description>Current lifecycle state of the program</description>
+    <inlineHelpText>Select the Program Status. Example: Active, Not Active</inlineHelpText>
+    <label>Program Status</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>false</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Unpublish</fullName>
+                <default>false</default>
+                <label>Unpublish</label>
+            </value>
+            <value>
+                <fullName>Publish</fullName>
+                <default>false</default>
+                <label>Publish</label>
+            </value>
+            <value>
+                <fullName>Archive</fullName>
+                <default>false</default>
+                <label>Archive</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

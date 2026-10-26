@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LearningCourse_Active_Date_Range_Valid</fullName>
+    <active>true</active>
+    <description>Ensures that parent Learning Active To Date is strictly greater than Active From Date.</description>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(Learning.ActiveFromDate)),
+    NOT(ISBLANK(Learning.ActiveToDate)),
+    Learning.ActiveToDate &lt;= Learning.ActiveFromDate
+)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Active To Date on the related Learning record must be later than Active From Date.</errorMessage>
+</ValidationRule>

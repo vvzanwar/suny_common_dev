@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Program__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Parent identifier for nested or umbrella program structures</description>
+    <inlineHelpText>Select the related Parent Program. Example: PRG-WFD-100</inlineHelpText>
+    <label>Parent Program</label>
+    <referenceTo>LearningProgram</referenceTo>
+    <relationshipLabel>Child Programs</relationshipLabel>
+    <relationshipName>Child_Programs</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

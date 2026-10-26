@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Early_Bird_Date_Range_Valid</fullName>
+    <active>true</active>
+    <description>Ensures that Early Bird End Date is strictly greater than Early Bird Start Date.</description>
+    <errorConditionFormula>AND(
+    NOT(ISBLANK(Early_Bird_Start_Date__c)),
+    NOT(ISBLANK(Early_Bird_End_Date__c)),
+    Early_Bird_End_Date__c &lt;= Early_Bird_Start_Date__c
+)</errorConditionFormula>
+    <errorDisplayField>Early_Bird_End_Date__c</errorDisplayField>
+    <errorMessage>Early Bird End Date must be later than Early Bird Start Date.</errorMessage>
+</ValidationRule>

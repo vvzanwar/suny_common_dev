@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Methods_of_Evaluation__c</fullName>
+    <description>Measuring learner mastery of learning outcomes</description>
+    <inlineHelpText>Enter the Methods of Evaluation. Example: Practical Skills Demonstration, Written or Oral Knowledge...</inlineHelpText>
+    <label>Methods of Evaluation</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

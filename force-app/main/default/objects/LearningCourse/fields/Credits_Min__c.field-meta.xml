@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credits_Min__c</fullName>
+    <description>Captures the unit/credit value for the course</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Credits Minimum. Example: 0</inlineHelpText>
+    <label>Credits Minimum</label>
+    <precision>18</precision>
+    <required>true</required>
+    <scale>0</scale>
+    <trackHistory>true</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

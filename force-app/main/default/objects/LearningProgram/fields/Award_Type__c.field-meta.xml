@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Award_Type__c</fullName>
+    <description>High-level award associated with the program</description>
+    <inlineHelpText>Select the Award Type. Example: Certificate; Multi-Certificate</inlineHelpText>
+    <label>Award Type</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Certificate</fullName>
+                <default>false</default>
+                <label>Certificate</label>
+            </value>
+            <value>
+                <fullName>Multi-Certificate</fullName>
+                <default>false</default>
+                <label>Multi-Certificate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
