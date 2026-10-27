@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee_Replacement__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates an employer replaced a previously registered employee.</description>
+    <inlineHelpText>Check the Employee Replacement. Example: TRUE / FALSE</inlineHelpText>
+    <label>Employee Replacement</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

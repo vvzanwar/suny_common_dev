@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Change_Reason__c</fullName>
+    <description>Reason for revocation or material status change.</description>
+    <inlineHelpText>Select the Status Change Reason. Example: Issued in error; Source-system revocation</inlineHelpText>
+    <label>Status Change Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Issued in error</fullName>
+                <default>false</default>
+                <label>Issued in error</label>
+            </value>
+            <value>
+                <fullName>Source-system revocation</fullName>
+                <default>false</default>
+                <label>Source-system revocation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

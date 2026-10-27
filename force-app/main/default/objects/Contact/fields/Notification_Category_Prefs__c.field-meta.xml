@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notification_Category_Prefs__c</fullName>
+    <description>Learner opt-in and opt-out settings by notification category.</description>
+    <inlineHelpText>Select the Notification Category Preferences. Example: Course Reminders: On; Marketing: Off</inlineHelpText>
+    <label>Notification Category Preferences</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Course Reminders: On</fullName>
+                <default>false</default>
+                <label>Course Reminders: On</label>
+            </value>
+            <value>
+                <fullName>Marketing: Off</fullName>
+                <default>false</default>
+                <label>Marketing: Off</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

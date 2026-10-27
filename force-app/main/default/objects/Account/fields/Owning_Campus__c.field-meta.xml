@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owning_Campus__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Campus that owns the employer relationship for security scoping.</description>
+    <inlineHelpText>Select the related Owning Campus. Example: Buffalo</inlineHelpText>
+    <label>Owning Campus</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Owned Employers</relationshipLabel>
+    <relationshipName>Owned_Employers</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Lookup</type>
+</CustomField>

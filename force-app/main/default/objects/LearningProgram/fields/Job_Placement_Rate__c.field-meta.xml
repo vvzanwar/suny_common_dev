@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Placement_Rate__c</fullName>
+    <description>Verified job placement rate for the program; must meet the 70% threshold</description>
+    <inlineHelpText>Enter the Verified Job Placement Rate. Example: 74%</inlineHelpText>
+    <label>Verified Job Placement Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

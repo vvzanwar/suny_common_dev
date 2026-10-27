@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Course_Offering__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Instructional activity associated with the support request.</description>
+    <inlineHelpText>Select the related Related Course Offering. Example: Welding Fundamentals - Section 2</inlineHelpText>
+    <label>Related Course Offering</label>
+    <referenceTo>CourseOffering</referenceTo>
+    <relationshipLabel>Cases</relationshipLabel>
+    <relationshipName>Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

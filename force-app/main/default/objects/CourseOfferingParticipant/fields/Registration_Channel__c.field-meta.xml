@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Registration_Channel__c</fullName>
+    <description>Identifies how the registration was initiated (learner self-service vs. campus-administered).</description>
+    <inlineHelpText>Select the Registration Channel. Example: Self-service, Phone, Walk-in, SIS/Administrative</inlineHelpText>
+    <label>Registration Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Self-service</fullName>
+                <default>false</default>
+                <label>Self-service</label>
+            </value>
+            <value>
+                <fullName>Phone</fullName>
+                <default>false</default>
+                <label>Phone</label>
+            </value>
+            <value>
+                <fullName>Walk-in</fullName>
+                <default>false</default>
+                <label>Walk-in</label>
+            </value>
+            <value>
+                <fullName>SIS/Administrative</fullName>
+                <default>false</default>
+                <label>SIS/Administrative</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

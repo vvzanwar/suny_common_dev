@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution_Notification_Sent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates the final resolution notification was issued to the requester.</description>
+    <inlineHelpText>Check the Resolution Notification Sent. Example: TRUE / FALSE</inlineHelpText>
+    <label>Resolution Notification Sent</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

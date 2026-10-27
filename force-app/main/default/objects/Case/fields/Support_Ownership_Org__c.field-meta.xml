@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Ownership_Org__c</fullName>
+    <description>Organization accountable for resolving the case.</description>
+    <inlineHelpText>Select the Support Ownership Organization. Example: Campus; General NCSIM Support</inlineHelpText>
+    <label>Support Ownership Organization</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Campus</fullName>
+                <default>false</default>
+                <label>Campus</label>
+            </value>
+            <value>
+                <fullName>General NCSIM Support</fullName>
+                <default>false</default>
+                <label>General NCSIM Support</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

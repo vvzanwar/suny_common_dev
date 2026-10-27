@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sponsoring_Employer__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Reference to the sponsoring employer for employer-purchased seats.</description>
+    <inlineHelpText>Select the related Sponsoring Employer. Example: EMP-0032</inlineHelpText>
+    <label>Sponsoring Employer</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Course Offering Participants</relationshipLabel>
+    <relationshipName>Course_Offering_Participants</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

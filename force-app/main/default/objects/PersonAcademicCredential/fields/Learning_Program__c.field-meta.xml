@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Learning_Program__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Links the credential to the program or skill pathway definition it was awarded for.</description>
+    <inlineHelpText>Select the related Learning Program. Example: NCR-EDU-101</inlineHelpText>
+    <label>Learning Program</label>
+    <referenceTo>LearningProgram</referenceTo>
+    <relationshipLabel>Person Academic Credentials</relationshipLabel>
+    <relationshipName>Person_Academic_Credentials</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

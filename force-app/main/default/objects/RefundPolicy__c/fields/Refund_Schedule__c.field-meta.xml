@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Refund_Schedule__c</fullName>
+    <description>Captures Refund Schedule on NCSIM_RefundPolicy__c.</description>
+    <inlineHelpText>Enter the Refund Schedule.</inlineHelpText>
+    <label>Refund Schedule</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

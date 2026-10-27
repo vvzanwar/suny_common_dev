@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attendance_Requirement_Met__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether the learner satisfied any required attendance threshold.</description>
+    <inlineHelpText>Check the Attendance Requirement Met. Example: Yes</inlineHelpText>
+    <label>Attendance Requirement Met</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

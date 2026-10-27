@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prior_SUNY_Attendance__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Supports matching and linking to prior learning history across campuses.</description>
+    <inlineHelpText>Check the Prior SUNY Attendance.</inlineHelpText>
+    <label>Prior SUNY Attendance</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

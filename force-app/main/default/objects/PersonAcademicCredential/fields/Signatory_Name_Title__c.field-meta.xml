@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Signatory_Name_Title__c</fullName>
+    <description>Signatory captured at issuance for point-in-time reproduction.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Signatory Name / Title. Example: Dr. J. Rivera, Director of Workforce Development</inlineHelpText>
+    <label>Signatory Name / Title</label>
+    <length>255</length>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Building__c</fullName>
+    <description>Building at the site when applicable.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Building. Example: Lab Building A</inlineHelpText>
+    <label>Building</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owning_Campus__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Identifies which campus this term definition applies to.</description>
+    <inlineHelpText>Select the related Owning Campus. Example: CORNING</inlineHelpText>
+    <label>Owning Campus</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Course Offerings</relationshipLabel>
+    <relationshipName>Course_Offerings</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Lookup</type>
+</CustomField>

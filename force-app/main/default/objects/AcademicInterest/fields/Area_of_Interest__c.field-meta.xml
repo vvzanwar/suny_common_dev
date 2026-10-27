@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area_of_Interest__c</fullName>
+    <description>Captures learner’s training interests to route to appropriate offerings and outreach. Collected in: PRI. Subject area the prospect expressed interest in on the PRI form.</description>
+    <inlineHelpText>Select the Area of Interest. Example: Healthcare; Advanced Manufacturing</inlineHelpText>
+    <label>Area of Interest</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+                <label>Healthcare</label>
+            </value>
+            <value>
+                <fullName>Advanced Manufacturing</fullName>
+                <default>false</default>
+                <label>Advanced Manufacturing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reissue_Indicator__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Marks a credential document as a reissue of an earlier award.</description>
+    <inlineHelpText>Check the Reissue Indicator. Example: Yes / No</inlineHelpText>
+    <label>Reissue Indicator</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

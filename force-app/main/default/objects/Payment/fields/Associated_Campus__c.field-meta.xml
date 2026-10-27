@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Associated_Campus__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Campus that owns the registration and the applicable payment gateway.</description>
+    <inlineHelpText>Select the related Associated Campus. Example: SUNY Broome</inlineHelpText>
+    <label>Associated Campus</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Payments (Associated Campus)</relationshipLabel>
+    <relationshipName>Associated_Campus_Payments</relationshipName>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

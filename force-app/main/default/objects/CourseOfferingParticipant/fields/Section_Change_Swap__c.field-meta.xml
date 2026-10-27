@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Section_Change_Swap__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates the registration resulted from a same-course, same-campus section change.</description>
+    <inlineHelpText>Check the Section Change (Swap). Example: TRUE / FALSE</inlineHelpText>
+    <label>Section Change (Swap)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Section_Change_Processed_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Authorized campus user who processed a section change.</description>
+    <inlineHelpText>Select the related Section Change Processed By. Example: campusadmin@campus.edu</inlineHelpText>
+    <label>Section Change Processed By</label>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Course Offering Participants</relationshipLabel>
+    <relationshipName>Course_Offering_Participants</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

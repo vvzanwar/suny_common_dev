@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Offline_Instrument_Number__c</fullName>
+    <description>Reference number of the check, money order, or receipt supporting the offline payment.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Offline Instrument Number. Example: CHK-004471</inlineHelpText>
+    <label>Offline Instrument Number</label>
+    <length>255</length>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employer_ID__c</fullName>
+    <description>Unique identifier for the sponsoring employer/organization.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Employer ID. Example: EMP-0032</inlineHelpText>
+    <label>Employer ID</label>
+    <length>255</length>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Audience__c</fullName>
+    <description>Intended learner population for the program</description>
+    <inlineHelpText>Select the Target Audience. Example: Adult learners</inlineHelpText>
+    <label>Target Audience</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adult learners</fullName>
+                <default>false</default>
+                <label>Adult learners</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

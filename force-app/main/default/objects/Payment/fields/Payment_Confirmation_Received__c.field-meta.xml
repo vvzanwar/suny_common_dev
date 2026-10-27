@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Confirmation_Received__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether payment confirmation has been returned to NCSIM by the gateway.</description>
+    <inlineHelpText>Check the Payment Confirmation Received. Example: TRUE / FALSE</inlineHelpText>
+    <label>Payment Confirmation Received</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

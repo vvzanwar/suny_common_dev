@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Progress_Source_System__c</fullName>
+    <description>Authoritative source feeding completion data into progress calculation.</description>
+    <inlineHelpText>Select the Progress Source System. Example: Campus SIS</inlineHelpText>
+    <label>Progress Source System</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Campus SIS</fullName>
+                <default>false</default>
+                <label>Campus SIS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

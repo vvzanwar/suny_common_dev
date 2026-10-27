@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ineligible_Institution_Outline__c</fullName>
+    <description>Outline of the curriculum indicating what portion and what percentage is taught by an ineligible institution</description>
+    <inlineHelpText>Enter the Ineligible Institution Outline. Example: 15% of curriculum delivered by Partner Institute</inlineHelpText>
+    <label>Ineligible Institution Outline</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

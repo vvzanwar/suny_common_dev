@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shareable_Badge_Link__c</fullName>
+    <description>Link for sharing to professional networks or navigating to externally hosted credentials.</description>
+    <inlineHelpText>Enter the Shareable Badge Link. Example: credly.com/badges/xyz</inlineHelpText>
+    <label>Shareable Badge Link</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Url</type>
+</CustomField>

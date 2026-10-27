@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prospect_Source_Tag__c</fullName>
+    <description>Attribution of where the inquiry originated, tagged on the prospect record.</description>
+    <inlineHelpText>Select the Prospect Source Tag. Example: Course; NCAT; Campaign; Campus vs SUNY</inlineHelpText>
+    <label>Prospect Source Tag</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Course</fullName>
+                <default>false</default>
+                <label>Course</label>
+            </value>
+            <value>
+                <fullName>NCAT</fullName>
+                <default>false</default>
+                <label>NCAT</label>
+            </value>
+            <value>
+                <fullName>Campaign</fullName>
+                <default>false</default>
+                <label>Campaign</label>
+            </value>
+            <value>
+                <fullName>Campus vs SUNY</fullName>
+                <default>false</default>
+                <label>Campus vs SUNY</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

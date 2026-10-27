@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reissue_Requested__c</fullName>
+    <description>Who triggered the reissuance and when.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Reissue Requested By / Date. Example: Learner self-service, 2026-06-02</inlineHelpText>
+    <label>Reissue Requested By / Date</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

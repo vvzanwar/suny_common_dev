@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course_Ownership_Model__c</fullName>
+    <description>Whether the employer seats are in a dedicated cohort or a public GA class.</description>
+    <inlineHelpText>Select the Course Ownership Model. Example: Dedicated (same-employer), Public/GA</inlineHelpText>
+    <label>Course Ownership Model</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dedicated (same-employer)</fullName>
+                <default>false</default>
+                <label>Dedicated (same-employer)</label>
+            </value>
+            <value>
+                <fullName>Public/GA</fullName>
+                <default>false</default>
+                <label>Public/GA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

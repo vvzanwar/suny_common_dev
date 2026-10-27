@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suppress_FA_Reminders__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field will be use by Campus users to suppress any follow up financial aid notification for learners</description>
+    <inlineHelpText>Check the Suppress Financial Aid Reminders. Example: Yes/No</inlineHelpText>
+    <label>Suppress Financial Aid Reminders</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

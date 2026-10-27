@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Evaluated_for_Credit__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether the noncredit program aligns to a credit pathway</description>
+    <inlineHelpText>Check the Evaluated for Credit. Example: Yes</inlineHelpText>
+    <label>Evaluated for Credit</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

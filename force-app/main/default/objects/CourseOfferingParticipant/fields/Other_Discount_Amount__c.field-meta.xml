@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Discount_Amount__c</fullName>
+    <description>Calculated discount value applied to the registration from other types of applicable discount.</description>
+    <inlineHelpText>Enter the Other Discount Amount. Example: 50</inlineHelpText>
+    <label>Other Discount Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Receipt_ID__c</fullName>
+    <description>Identifier for the receipt issued on successful payment.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Receipt ID. Example: RCT-2026-0009812</inlineHelpText>
+    <label>Receipt ID</label>
+    <length>255</length>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

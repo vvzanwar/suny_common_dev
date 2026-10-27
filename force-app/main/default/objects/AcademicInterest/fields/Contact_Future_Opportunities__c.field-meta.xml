@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Future_Opportunities__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Captures opt-in preference for future opportunity marketing. Collected in: PRI.</description>
+    <inlineHelpText>Check the Contact About Future Opportunities.</inlineHelpText>
+    <label>Contact About Future Opportunities</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

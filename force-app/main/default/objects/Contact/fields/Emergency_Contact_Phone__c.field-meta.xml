@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emergency_Contact_Phone__c</fullName>
+    <description>Supports safety and contact in emergencies.</description>
+    <inlineHelpText>Enter the Emergency Contact Phone.</inlineHelpText>
+    <label>Emergency Contact Phone</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Phone</type>
+</CustomField>

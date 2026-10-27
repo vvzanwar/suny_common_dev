@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transcript_Eligible__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether the completion should appear on an official or unofficial learner transcript/history.</description>
+    <inlineHelpText>Check the Transcript Eligible. Example: Yes</inlineHelpText>
+    <label>Transcript Eligible</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

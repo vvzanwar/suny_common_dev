@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolved_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>User who resolved the case.</description>
+    <inlineHelpText>Select the related Resolved By. Example: Ray Rose</inlineHelpText>
+    <label>Resolved By</label>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Cases (Resolved By)</relationshipLabel>
+    <relationshipName>Resolved_By_Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

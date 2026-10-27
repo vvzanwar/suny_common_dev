@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Self_Service_Auto_Closed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Marks chatbot cases resolved through self-service and automatically set to Closed.</description>
+    <inlineHelpText>Check the Self-Service Auto-Closed. Example: True</inlineHelpText>
+    <label>Self-Service Auto-Closed</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

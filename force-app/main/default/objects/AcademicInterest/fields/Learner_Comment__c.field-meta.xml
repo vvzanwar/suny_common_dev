@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Learner_Comment__c</fullName>
+    <description>Captures free-text details to support advising and appropriate follow-up. Collected in: PRI.</description>
+    <inlineHelpText>Enter the Learner Comment.</inlineHelpText>
+    <label>Learner Comment</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

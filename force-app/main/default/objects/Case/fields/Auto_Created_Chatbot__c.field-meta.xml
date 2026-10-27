@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_Created_Chatbot__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Marks cases generated automatically from chatbot interactions.</description>
+    <inlineHelpText>Check the Auto-Created via Chatbot. Example: True</inlineHelpText>
+    <label>Auto-Created via Chatbot</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

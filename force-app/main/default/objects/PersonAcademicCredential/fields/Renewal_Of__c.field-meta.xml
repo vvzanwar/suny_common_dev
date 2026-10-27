@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_Of__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Links a newly earned credential to the expired credential it renews, with the renewal cycle count.</description>
+    <inlineHelpText>Select the related Renewal Of. Example: CRD-00028104, Sequence 2</inlineHelpText>
+    <label>Renewal Of</label>
+    <referenceTo>PersonAcademicCredential</referenceTo>
+    <relationshipLabel>Person Academic Credentials (Renewal Of)</relationshipLabel>
+    <relationshipName>Renewal_Of_Person_Academic_Credentials</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

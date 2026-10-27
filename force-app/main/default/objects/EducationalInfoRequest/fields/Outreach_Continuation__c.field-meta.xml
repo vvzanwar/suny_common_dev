@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outreach_Continuation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether ongoing outreach continues for the prospect or converted learner.</description>
+    <inlineHelpText>Check the Outreach Continuation. Example: TRUE / FALSE</inlineHelpText>
+    <label>Outreach Continuation</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

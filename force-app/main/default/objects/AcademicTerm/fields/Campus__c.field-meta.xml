@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campus__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Unique identifier for the campus owning the program</description>
+    <inlineHelpText>Select the related Campus. Example: SUNY-ALB</inlineHelpText>
+    <label>Campus</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Academic Terms</relationshipLabel>
+    <relationshipName>Academic_Terms</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

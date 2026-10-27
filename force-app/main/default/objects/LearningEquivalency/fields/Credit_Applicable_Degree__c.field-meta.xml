@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Applicable_Degree__c</fullName>
+    <description>Captures Credit Applicable to Degree Type on LearningEquivalency.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Credit Applicable to Degree Type. Example: AAS</inlineHelpText>
+    <label>Credit Applicable to Degree Type</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

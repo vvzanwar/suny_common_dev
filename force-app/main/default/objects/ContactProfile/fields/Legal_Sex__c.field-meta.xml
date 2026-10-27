@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Legal_Sex__c</fullName>
+    <description>Supports required demographics reporting and equity analyses. Collected in: Initial Acct Creation.</description>
+    <inlineHelpText>Select the Legal Sex. Example: F</inlineHelpText>
+    <label>Legal Sex</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>F</fullName>
+                <default>false</default>
+                <label>F</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

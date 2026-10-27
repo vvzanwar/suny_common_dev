@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Refund_Reviewed_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Campus personnel who reviewed and decided the refund request.</description>
+    <inlineHelpText>Select the related Refund Reviewed By. Example: John Doe</inlineHelpText>
+    <label>Refund Reviewed By</label>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Refunds</relationshipLabel>
+    <relationshipName>Refunds</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

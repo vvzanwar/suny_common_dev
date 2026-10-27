@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Hours_Earned__c</fullName>
+    <description>Contact hours printed on the credential, frozen at issuance.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Total Contact Hours Earned. Example: 24</inlineHelpText>
+    <label>Total Contact Hours Earned</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

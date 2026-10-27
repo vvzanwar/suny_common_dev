@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competency_Demonstrated__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether required competencies or skills were demonstrated.</description>
+    <inlineHelpText>Check the Competency Demonstrated. Example: Yes</inlineHelpText>
+    <label>Competency Demonstrated</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

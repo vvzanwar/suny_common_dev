@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Articulates_to_Credit__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether the completion can convert to or articulate toward credit-bearing coursework.</description>
+    <inlineHelpText>Check the Articulates to Credit. Example: No</inlineHelpText>
+    <label>Articulates to Credit</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

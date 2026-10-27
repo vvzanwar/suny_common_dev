@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Registration_Open_Date__c</fullName>
+    <description>Offering-level registration open date (overrides term defaults when present).</description>
+    <inlineHelpText>Enter the Registration Open Date. Example: 2026-08-01 00:00:00</inlineHelpText>
+    <label>Registration Open Date</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>DateTime</type>
+</CustomField>

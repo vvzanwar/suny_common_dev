@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Progress_Sync__c</fullName>
+    <description>When completion data was last received from the source system.</description>
+    <inlineHelpText>Enter the Last Progress Sync. Example: 2026-06-01 03:15:00</inlineHelpText>
+    <label>Last Progress Sync</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

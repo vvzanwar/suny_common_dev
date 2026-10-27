@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Routing_Campus__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Campus responsible for verifying the request.</description>
+    <inlineHelpText>Select the related Request Routing Campus. Example: Issuing campus (auto-derived)</inlineHelpText>
+    <label>Request Routing Campus</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Cases (Request Routing Campus)</relationshipLabel>
+    <relationshipName>Request_Routing_Campus_Cases</relationshipName>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

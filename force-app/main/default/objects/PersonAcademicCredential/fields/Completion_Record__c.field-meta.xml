@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completion_Record__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Links the credential to the completion outcome that triggered issuance.</description>
+    <inlineHelpText>Select the related Completion Record. Example: COMP-00077812</inlineHelpText>
+    <label>Completion Record</label>
+    <referenceTo>CourseOfferingPtcpResult</referenceTo>
+    <relationshipLabel>Person Academic Credentials</relationshipLabel>
+    <relationshipName>Person_Academic_Credentials</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

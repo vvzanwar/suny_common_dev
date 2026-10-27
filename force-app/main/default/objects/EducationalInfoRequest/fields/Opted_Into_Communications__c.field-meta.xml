@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opted_Into_Communications__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Determines whether outreach proceeds or the record is stored with no outreach.</description>
+    <inlineHelpText>Check the Opted Into Communications. Example: TRUE / FALSE</inlineHelpText>
+    <label>Opted Into Communications</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

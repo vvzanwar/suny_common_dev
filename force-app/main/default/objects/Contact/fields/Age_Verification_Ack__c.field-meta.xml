@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Age_Verification_Ack__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Captures acknowledgement for age eligibility without collecting full DOB during initial contact. Collected in: PRI.</description>
+    <inlineHelpText>Check the Age Verification Acknowledgement.</inlineHelpText>
+    <label>Age Verification Acknowledgement</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

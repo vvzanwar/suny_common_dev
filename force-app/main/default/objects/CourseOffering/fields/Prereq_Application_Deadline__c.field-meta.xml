@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prereq_Application_Deadline__c</fullName>
+    <description>Configured deadline by which the learner must complete registration after approval.</description>
+    <inlineHelpText>Enter the Prerequisite Application Deadline. Example: 2026-03-01 00:00:00</inlineHelpText>
+    <label>Prerequisite Application Deadline</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Date</type>
+</CustomField>

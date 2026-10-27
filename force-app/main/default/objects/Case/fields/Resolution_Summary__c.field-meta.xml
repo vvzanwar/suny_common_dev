@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution_Summary__c</fullName>
+    <description>Narrative of how the case was resolved, shared with the requester.</description>
+    <inlineHelpText>Enter the Resolution Summary. Example: Duplicate authorization voided; learner charged once.</inlineHelpText>
+    <label>Resolution Summary</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

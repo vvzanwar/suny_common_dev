@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campus_Coordinator__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Named campus role responsible for triage, offline escalation, and case updates.</description>
+    <inlineHelpText>Select the related Campus Coordinator. Example: John Doe</inlineHelpText>
+    <label>Campus Coordinator</label>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Cases (Campus Coordinator)</relationshipLabel>
+    <relationshipName>Campus_Coordinator_Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

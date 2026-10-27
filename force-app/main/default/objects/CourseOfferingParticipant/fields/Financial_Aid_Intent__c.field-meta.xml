@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financial_Aid_Intent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field will capture the actual financial aid learner has applied to or plan to apply</description>
+    <inlineHelpText>Check the Financial Aid Intent.</inlineHelpText>
+    <label>Financial Aid Intent</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

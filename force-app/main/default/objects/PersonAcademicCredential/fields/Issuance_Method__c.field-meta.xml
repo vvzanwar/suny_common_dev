@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issuance_Method__c</fullName>
+    <description>How the credential was created.</description>
+    <inlineHelpText>Select the Issuance Method. Example: Automatic on completion; Manual issuance; Learner upload</inlineHelpText>
+    <label>Issuance Method</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Automatic on completion</fullName>
+                <default>false</default>
+                <label>Automatic on completion</label>
+            </value>
+            <value>
+                <fullName>Manual issuance</fullName>
+                <default>false</default>
+                <label>Manual issuance</label>
+            </value>
+            <value>
+                <fullName>Learner upload</fullName>
+                <default>false</default>
+                <label>Learner upload</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

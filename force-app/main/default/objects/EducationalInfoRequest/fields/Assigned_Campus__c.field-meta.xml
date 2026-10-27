@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assigned_Campus__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Campus the prospect is assigned to, or default routing where no campus was selected.</description>
+    <inlineHelpText>Select the related Assigned Campus. Example: SUNY Broome; Default Routing</inlineHelpText>
+    <label>Assigned Campus</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Educational Info Requests</relationshipLabel>
+    <relationshipName>Educational_Info_Requests</relationshipName>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>
